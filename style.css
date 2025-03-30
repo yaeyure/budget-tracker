@@ -1,0 +1,103 @@
+/* 頁面設定 */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background: linear-gradient(135deg, #f0e6d6, #f7f1e1); /* 米色系漸層背景 */
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* 標題 */
+h1 {
+    text-align: center;
+    color: #d4a29c; /* 淡米色調粉紅色 */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* 記帳表單 */
+form {
+    background-color: #fff9f1; /* 淺米色背景 */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 表單內部元件 */
+form label {
+    font-size: 1.2rem;
+    color: #d4a29c; /* 淡米色調粉紅色 */
+    margin-bottom: 8px;
+    display: block;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #d4a29c;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: #6f4f37; /* 深米色文字 */
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* 表單項目的focus效果 */
+form input:focus, form select:focus, form button:focus {
+    border-color: #b47f6f; /* 深米色 */
+    box-shadow: 0 0 5px rgba(180, 127, 111, 0.5);
+}
+
+/* 按鈕樣式 */
+form button {
+    background-color: #d4a29c;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #b47f6f; /* 按鈕的深米色 hover */
+}
+
+/* 記帳紀錄區域 */
+#records {
+    margin-top: 30px;
+}
+
+.record {
+    background-color: #f8f2e1; /* 記帳紀錄的背景顏色 */
+    border-radius: 12px;
+    border: 1px solid #d4a29c;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 記帳紀錄文字 */
+.record p {
+    margin: 8px 0;
+    color: #6f4f37; /* 深米色文字 */
+    font-size: 1.1rem;
+}
+
+.record strong {
+    color: #d4a29c; /* 淡米色調粉紅色 */
+    font-weight: bold;
+}
+
+/* 記帳紀錄內部的間隔 */
+hr {
+    border: 1px solid #b47f6f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
